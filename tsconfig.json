@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "outDir": "build",
+        "sourceMap": false,
+        "baseUrl": ".",
+        "lib": ["es2015", "es2017", "dom"],
+        "allowJs": true,
+        "rootDir": "./src"
+    },
+    "exclude": [
+        "./app.ts",
+        "./js-src/*",
+        "./build"
+    ],
+    "types": [
+        "./types/url.d.ts"
+    ]
+}

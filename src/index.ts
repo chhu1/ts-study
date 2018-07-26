@@ -1,0 +1,10 @@
+import './basic/index';
+import './enum/index';
+import './class/index';
+import './function/index';
+import './hightype/index';
+import './module/index';
+import './interface/index';
+import './generics/index';
+import './namespace/index';
+import './skill/index';
