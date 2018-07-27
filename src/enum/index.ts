@@ -20,6 +20,12 @@ interface Circle {
     radius: number;
 }
 
+// 枚举类型也不可以混用，即使值类型相同
+// let c: Circle = {
+//     kind: ShapeKind.Square,
+//     radius: 100,
+// }
+
 let c: Circle = {
     kind: ShapeKind.Circle,
     radius: 100,

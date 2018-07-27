@@ -15,7 +15,7 @@ export class B implements A {
     }
 }
 
-// this参数
+// this参数，友好的提示
 interface C {
     type: string[];
     createType(this: C, newType: string): () => { a: string };

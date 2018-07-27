@@ -1,4 +1,4 @@
-// 参数属性
+// 参数属性简化代码
 class Animal {
     private tag: string
     constructor(private name: string) {
