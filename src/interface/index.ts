@@ -1,6 +1,21 @@
 // 额外的属性检查
+// 不要用[propName: string]: string; 代替声明所有属性
+// 接口声明尽量更为精确
 export interface BaseInterfaceOne {
+    color: string;
+    type: string;
     [propName: string]: string;
+}
+
+let condition = true;
+let baseOne: BaseInterfaceOne  = null;
+baseOne = {} as BaseInterfaceOne;
+if (condition) {
+    baseOne.color = 'red'
+    baseOne.type = 'small'
+} else {
+    baseOne.color = 'green'
+    baseOne.type = 'big'
 }
 
 // 可索引的接口

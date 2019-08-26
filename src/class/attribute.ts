@@ -1,6 +1,6 @@
 // 参数属性简化代码
 class Animal {
-    private tag: string
+    private tag: string = 'abc'
     constructor(private name: string) {
         this.tag = 'animal';
     }

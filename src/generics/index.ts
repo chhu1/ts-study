@@ -1,3 +1,9 @@
+// 修改Length
+function setLength(obj: any) {
+    obj.length = 3;
+    return obj;
+}
+
 class BeeKeeper {
     hasMask: boolean;
 }

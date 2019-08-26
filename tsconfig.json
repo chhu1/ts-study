@@ -7,7 +7,9 @@
         "baseUrl": ".",
         "lib": ["es2015", "es2017", "dom"],
         "allowJs": true,
-        "rootDir": "./src"
+        "rootDir": "./src",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
     },
     "exclude": [
         "./app.ts",
